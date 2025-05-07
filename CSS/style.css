@@ -193,34 +193,17 @@ header {
     padding: 25px 10%;
     background-color: rgb(172, 222, 235);
     background-size: cover;
-    width: 75vw;
-    height: 150vh;
     margin: 20px 0;
 }
 
-.about-img {
-    position: relative;
-    width: 30vw;
-    height: 40vw;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
 .about-img img {
-    float: right;
-    margin: 0;
-    margin-left: 0px;
-    margin-right: 150px;
-    width: 250px;
-    height: 450px;
-    border-radius: 50%;
-    -o-object-fit: cover;   
-        object-fit: cover;
-        padding-left: 5px;
-    position: absolute;
-    top: 30px;
-    display: block;
+    width: 40vw;
 }   
+
+.heading {
+    text-align: left;
+    font-size: 60px ;
+}
 
 .about-content h2 {
     font-size: 50px;
@@ -234,8 +217,7 @@ header {
     line-height: 27px;
     margin: 0;  
     font-size: 19px;
-}
-
+} 
 
 .no-animation {
     animation: none;
@@ -263,12 +245,12 @@ button:hover {
 }
 
 /* Services */
-.services{
+.services {
     padding: 25px 10%;
     border-top: 2px solid black;
 }
 
-.services-container{
+.service-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -276,18 +258,17 @@ button:hover {
     gap: 1.2rem;
 }
 
-.services h2{
+.services h2 {
     text-align: center;
-    font-size: 3.6rem;
 }
 
-.services-container .service-box{
+.service-container .service-box {
     flex: 1 1 20rem;
     background-color: rgb(172, 222, 235);
     padding: 2rem 1rem 3rem;
     border-radius: 1.5rem;
     text-align: center;
-    transition: .5s ease;
-    border: 1.5rem solid #1f242d;
+    transition: 0.5s ease;
+    border: 1.5rem solid #ffffff;
 }
 
