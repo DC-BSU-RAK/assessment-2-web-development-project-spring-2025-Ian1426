@@ -12,7 +12,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../CSS/navyblue-white.jpg");
+    background-image: url("../IMAGES/navyblue-white.jpg");
     background-color: rgb(172, 222, 235);
 }
 
@@ -242,6 +242,10 @@ button:hover {
     background: transparent;
     box-shadow: none;
     color: #fff;
+}
+
+h2 span {
+    color: #12a7ec;
 }
 
 /* Services */
